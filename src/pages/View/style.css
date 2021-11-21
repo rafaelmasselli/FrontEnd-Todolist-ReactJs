@@ -1,0 +1,22 @@
+.texto {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.botao {
+  margin: 20px;
+}
+.centralize {
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Font {
+}
+
+.botoes {
+  margin: 5px;
+}
+
+.containerr {
+}

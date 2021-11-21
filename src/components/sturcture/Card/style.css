@@ -1,0 +1,15 @@
+.Cardd {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.imagem {
+  max-width: 200px;
+}
+.botao {
+  text-align: center;
+}
+.alinhar {
+  text-align: center;
+  margin: 20px;
+}
