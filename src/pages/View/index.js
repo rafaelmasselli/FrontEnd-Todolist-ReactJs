@@ -61,6 +61,7 @@ const Detalhes = (props) => {
         prioridade={tarefa.prioridade}
         prazo={tarefa.prazo}
         descricao={tarefa.descricao}
+        dataCriacao={tarefa.dataCriacao}
       />
 
       <div className="d-flex align-content-around flex-wrap">

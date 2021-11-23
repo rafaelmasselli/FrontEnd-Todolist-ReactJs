@@ -6,6 +6,7 @@ const Texto = (props) => {
   const titulo = props.titulo;
   const status = props.status;
   const prioridade = props.prioridade;
+  const dataCriacao = props.dataCriacao;
 
   return (
     <div className="centro">
@@ -14,16 +15,19 @@ const Texto = (props) => {
         <h4 className="alert-heading">
           <b>Titulo</b>
         </h4>
-        <p>{titulo}</p>
+        <p className="color">{titulo}</p>
 
         <h4>Status</h4>
-        <p>{status}</p>
+        <p className="color">{status}</p>
 
         <h4 className="alert-heading">Prioridade </h4>
-        <p>{prioridade}</p>
+        <p className="color">{prioridade}</p>
+
+        <h4 className="alert-heading">Data de criação </h4>
+        <p className="color">{dataCriacao}</p>
 
         <h4 className="alert-heading">Prazo </h4>
-        <p className="">{texto}</p>
+        <p className="color">{texto}</p>
       </div>
     </div>
   );
