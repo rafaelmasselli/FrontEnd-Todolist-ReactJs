@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "../Card";
 import "./style.css";
+import API from "./../../../api/index";
 
 const Cardapi = () => {
   const [tarefa, setTarefas] = useState([]);
@@ -10,7 +11,7 @@ const Cardapi = () => {
   }, []);
 
   const getTarefas = async () => {
-    const request = await fetch("http://localhost:3000");
+    const request = await API.fetchGetAll();
     const data = await request.json();
     setTarefas(data);
   };

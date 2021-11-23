@@ -1,5 +1,5 @@
 const api = {
-  apiURL: "http://localhost:3000",
+  apiURL: "https://backend-list.herokuapp.com",
   fetchGetAll: () => fetch(api.apiURL),
   fetchGetById: (id) => fetch(`${api.apiURL}/${id}`),
   fetchPost: (dado) => {
