@@ -64,7 +64,8 @@ const Detalhes = (props) => {
       />
 
       <div className="d-flex align-content-around flex-wrap">
-        <p></p>
+        <div class="overflow-auto center">{tarefa.descricao}</div>
+        <br></br>
       </div>
 
       <div className="container">
