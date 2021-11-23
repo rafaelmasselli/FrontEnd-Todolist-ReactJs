@@ -10,7 +10,7 @@ const Texto = (props) => {
 
   return (
     <div className="centro">
-      <div class="alert alert-dark curve" role="alert">
+      <div class="alert alert-dark curve3" role="alert">
         <br></br>
         <h4 className="alert-heading">
           <b>Titulo</b>
@@ -23,11 +23,12 @@ const Texto = (props) => {
         <h4 className="alert-heading">Prioridade </h4>
         <p className="color">{prioridade}</p>
 
-        <h4 className="alert-heading">Data de criação </h4>
-        <p className="color">{dataCriacao}</p>
-
         <h4 className="alert-heading">Prazo </h4>
-        <p className="color">{texto}</p>
+        <p className="position"></p>
+        <p className="color">
+          Ano/Mes/Dia <br></br>
+          {texto}
+        </p>
       </div>
     </div>
   );

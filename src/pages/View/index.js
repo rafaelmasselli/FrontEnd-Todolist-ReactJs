@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 import Texto from "../../components/sturcture/Text/index";
+import TextoE from "../../components/sturcture/textD/index";
 import { useParams } from "react-router-dom";
 import api from "./../../api/index";
 import { Link } from "react-router-dom";
@@ -61,16 +62,8 @@ const Detalhes = (props) => {
         prioridade={tarefa.prioridade}
         prazo={tarefa.prazo}
         descricao={tarefa.descricao}
-        dataCriacao={tarefa.dataCriacao}
       />
-
-      <div className="d-flex align-content-around flex-wrap">
-        <h3 className="container">
-          <b>Descrição</b>
-        </h3>
-        <div class="overflow-auto center">{tarefa.descricao}</div>
-        <br></br>
-      </div>
+      <TextoE dataCriacao={tarefa.dataCriacao} descricao={tarefa.descricao} />
 
       <div className="container">
         <Link className="mb-0" to={`/Edit/${tarefa._id}`}>
@@ -83,7 +76,7 @@ const Detalhes = (props) => {
             Excluir
           </button>
           <Modal open={open} onClose={FalseModal} className="alert alert-info">
-            <h2 className="my-4">Deseja realmente excluir?</h2>
+            <h2 className="my-4">Deseja realmente excluir essa tarefa?</h2>
             <div className="centro">
               <button
                 type="button"

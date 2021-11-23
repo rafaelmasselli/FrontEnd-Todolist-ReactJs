@@ -1,13 +1,13 @@
 .centro {
   text-align: center;
 }
-.curve3 {
+.curve {
   color: white;
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 330px;
-  background-image: url("https://media1.giphy.com/media/26tPoxVWgkyludstO/giphy.gif?cid=ecf05e47ddhtwtoqpt450f1w1atol647b7yywymm8x4x0rfj&rid=giphy.gif&ct=g");
+  background-color: black;
 }
 .curve2 {
   border-radius: 20px;
