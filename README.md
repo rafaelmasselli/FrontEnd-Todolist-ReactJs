@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+<h1 align="center"> ⚡ Front-end Todolist ⚡</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align="center">  
+ <img width="150" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+</div>
 
-In the project directory, you can run:
+## Teste você mesmo o projeto
 
-### `yarn start`
+### Front-end:  <https://frontend-list.herokuapp.com/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Back-end: <https://backend-list.herokuapp.com/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Pré requisistos 📝
 
-### `yarn test`
+### Para iniciar o projeto você precisa do <a href="https://nodejs.org/en/download/">Node js</a>, <a href="https://create-react-app.dev/docs/getting-started/">ReactJs</a>, <a href="https://git-scm.com/downloads">Git</a>, e do <a href="https://www.mongodb.com/try/download/community">MongoDBCompass</a> instalados e para starta o projeto você vai precisar de uma <a href="https://code.visualstudio.com/download">IDE</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🎲 Rodando o Back-end
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+#Clone do repositorio
+$ git clone <https://github.com/rafaelmasselli/BackEnd-Todolist>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Acesse a pasta do projeto pelo terminal
+$ cd <Nome da pastas>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#instale as depedências
+$ npm install
 
-### `yarn eject`
+#Inicie o projeto em modo de desenvolvedor
+$ npm run start dev
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Mais informações do back end na documentação do projeto <https://github.com/rafaelmasselli/BackEnd-Todolist-NodeJs>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Iniciando o projeto no Front-end
 
-## Learn More
+``` bash
+# Clonando o projeto
+$ git clone https://github.com/rafaelmasselli/FrontEnd-Todolist-ReactJs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Entrando na pasta do projeto com o terminal ou com a IDE
+> cd <FrontEnd-Todolist-Reactjs>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instalando o projeto 
+$ npm install 
 
-### Code Splitting
+# Com o Back-end rodando inicie o projeto 
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+> Mudando a url do fetch Back-end ( Opcional )
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Ja dentro do projeto com uma IDE entre na pasta src/api
 
-### Making a Progressive Web App
+![Achando a api do front end](./Readme/ApiUrl.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> Na const api altere o valor do "apiURL" para <http://localhost:3001/>
 
-### Advanced Configuration
+![Mudando a api do projeto para o back end local](./Readme/Api3001.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Descrição 🐱‍👤
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Projeto Todolist Bloco de notas feito para anotar as atividades do usúario.
 
-### `yarn build` fails to minify
+- [x] Consumo de Rest api com axios
+- [x] Visualizar todas as terefas. Get
+- [x] Visualizar uma unica tarefa. Get
+- [x] Criar Tarefa. Post
+- [x] Editar Tarefa. Patc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Ferramentas usadas no projeto 
+
+- [x] React Js
+- [x] React router dom
+- [x] Boostrap
+- [x] React modal
