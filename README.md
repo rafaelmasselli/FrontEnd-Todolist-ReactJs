@@ -16,7 +16,7 @@
 ### Para iniciar o projeto você precisa do <a href="https://nodejs.org/en/download/">Node js</a>, <a href="https://create-react-app.dev/docs/getting-started/">ReactJs</a>, <a href="https://git-scm.com/downloads">Git</a>, e do <a href="https://www.mongodb.com/try/download/community">MongoDBCompass</a> instalados e para starta o projeto você vai precisar de uma <a href="https://code.visualstudio.com/download">IDE</a>
 
 
-## 🎲 Rodando o Back-end
+## Rodando o Back-end 🎲
 
 ```bash
 #Clone do repositorio
@@ -36,7 +36,7 @@ $ npm run start dev
 
 > Mais informações do back end na documentação do projeto <https://github.com/rafaelmasselli/BackEnd-Todolist-NodeJs>
 
-## Iniciando o projeto no Front-end
+## Rodando o Front-end 🎲
 
 ``` bash
 # Clonando o projeto
