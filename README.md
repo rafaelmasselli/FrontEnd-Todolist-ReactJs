@@ -72,7 +72,7 @@ $ npm start
 - [x] Visualizar todas as terefas. Get
 - [x] Visualizar uma unica tarefa. Get
 - [x] Criar Tarefa. Post
-- [x] Editar Tarefa. Patc
+- [x] Editar Tarefa. patch
 
 ## Ferramentas usadas no projeto 
 
